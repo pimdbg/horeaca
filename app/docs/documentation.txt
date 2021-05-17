@@ -1,0 +1,17 @@
+documentation
+[in case of moving from server]
+    [ROOT/.htaccess]
+        RewriteBase needs to adjust to all submaps.
+        for instance https://url.com/map/mapTwo need RewriteBase map/mapTwo
+    [ROOT/app/config/config.php]
+        All root and links net to be adjusted properly if address is not contained in the switch-statement already
+    [ROOT/public/robots.txt]
+        Adjust where necessary
+    [ROOT/public/docs/sitemap.xml]
+        Links must be edited
+[notes]
+    -Javascript launch.js its sole purpose is to launch other classes. it uses the try/catch function because not every page has the same classes
+    -The updateJson.php file in /model is used to update the json ld, stored as js/schema.json. 
+        Once there is an update load [ROOT]/pages/updateJson in the browser once and the file will update itself.
+        The menucard items and -sections need no further manual instructions, if it the update is placed in the database.
+        Other information can be found in the file itself, and can be update to the necessary standard

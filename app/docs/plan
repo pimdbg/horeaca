@@ -1,0 +1,46 @@
+Horeca site
+
+-Bedrijf wil welkomhetend concept
+    -Ietwat donker thema voor gezelligheid
+    -Meerdere fotos van restaurant en eten, stock-fotos https://unsplash.com/s/photos/restaurant
+    -Grove fotos voor Bourgondisch accent
+
+-Goed reserveringssysteem
+    -Via formulier of JQuery Datapicker
+    -Database?
+
+-Menukaart
+    -Eigen pagina
+    -Downloadbaar
+
+-Contact
+    -Via formulier
+    -Openingstijden hierbij?
+
+-Koppeling twitter account
+    -NodeJS?
+    
+////////////////////////
+Hoofd-Paginas
+-Home
+-Menukaart
+-Contact
+-Reserveren
+
+--Indien nodig kunnen er paginas bij komen--
+////////////////////////
+Planning
+-Leg structuur Paginas
+-Menukaart vinden/maken
+-Content geven aan Hoofdpagina
+-Rest van de paginas invullen
+
+-Systeem voor reserveren aanmaken
+-Contact regelen
+
+-Inkleuren*
+
+-Rich Snippets/ Andere SEO benodigdheden
+
+*Inkleuren kan al gedaan zijn
+--Er kunnen meer stappen bij komen--
