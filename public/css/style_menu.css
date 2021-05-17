@@ -1,0 +1,33 @@
+#menucard h3 {    
+    color: white;
+}
+#menucard div {
+    margin: 50px;
+}
+#menucard table {
+    margin: 0 auto;
+}
+#menucard table tr td, #menucard h3 {
+    font-size: 1.4em;
+    padding: 0 10px;
+}
+#menucard td:first-of-type{
+    border-right: black 1px solid;
+    width: 250px;
+}
+#menucard td:last-of-type{
+    text-align: right;
+    width: 70px;
+}
+#menucard div {
+    flex: 1;
+}
+#downloadSection, h3 {
+    text-align: center;
+}
+#menucard h3:not(.menuTitle h3){
+    font-size: 1.6em;
+}
+.menuTitle{
+    font-size: 1.8em;
+}

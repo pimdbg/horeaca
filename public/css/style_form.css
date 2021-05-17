@@ -1,0 +1,35 @@
+
+input:not([type=radio], [type=submit]) {
+    width: 550px;
+}
+input[type=submit] {
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 5px 0px;
+    font-size: 0.8rem;
+    padding: 5px 30px;
+    background-color: black;
+    border: black 1px solid;
+}
+input[type=submit]:hover {
+    background-color: #1b3390;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+select {
+    width: 120px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+.error {
+    color: #940505;
+    font-size: 0.9em;
+}
+.success {
+    font-size: 0.9em;
+    color: #0c1595;
+    margin: 20px 0;
+}

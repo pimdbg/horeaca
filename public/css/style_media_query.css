@@ -1,0 +1,77 @@
+@media only screen and (max-width: 800px){
+    #container {
+        padding: 0;
+        background-position: 30% 50%;
+    }
+    main {
+        padding: 0;
+    }
+    nav {
+        height: auto;
+        background-color: #1e191900;
+        width: 70px;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        padding: 0;
+    }
+    nav ul li {
+        text-align: center;
+        position: relative;
+        left: 0;
+    }
+    #navButton {
+        display: block;
+        width: 70px;
+        height: 70px;
+    }
+    #navButton i {
+        font-size: 1.6em;
+        color: white;
+        margin: 5px;
+        padding: 10px;
+        background-color: #1e1919;
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+    }
+    header{
+        height: 400px;
+        background-size: 150%;
+    }
+    #headerHome {
+        background-size: 240%;
+        background-position: 60% 60%;
+    }
+    #openingsSchedule {
+        margin: 0px 40px;;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery img {
+        margin: 0 auto;
+    }
+    #menucard {
+        font-size: 0.7em;
+    }
+    input:not([type=radio], [type=submit]), textarea {
+        width: 100%;
+    }
+    footer ul li {
+        font-size: 0.7em;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 380px){
+    footer ul li {
+        font-size: 0.5em;
+    }
+    #menucard div {
+        margin: 0px;
+    }
+    #title h1 {
+        font-size: 2em;
+    }
+}

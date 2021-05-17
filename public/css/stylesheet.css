@@ -1,0 +1,149 @@
+@font-face{
+    src: url('../fonts/Gotham-Ultra.otf');
+    font-family: 'Gotham';
+}
+@font-face{
+    src: url('../fonts/segoescb.ttf');
+    font-family: 'Segoes';
+}
+@font-face{
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-family: 'Roboto';
+}
+body {
+    font-size: 1.5em;
+    background-color: #784f36;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #c58950;      
+    background-image: 
+        linear-gradient(135deg, #c16528e0, #c58950e3),
+        url(../img/food_grill_cheese.min.jpg);
+    background-size: cover;
+    background-position: 0% 0%;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #1e1919;
+    position: fixed;
+    top: 0;
+    font-family: Segoes;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+ul li {
+    padding: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+ul li a:hover {
+    border-bottom: 1px white solid;
+    color: white;
+}
+#navButton {
+    display: none;
+}
+header {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#headerHome {
+    background-image: url('../img/bar.jpg');
+}
+#headerReservations {
+    background-image: url('../img/food_burger_fries.jpg');
+    background-position: top;
+}
+#headerMenuCard {
+    background-image: url('../img/koffie_card.jpg');
+}
+#headerContact {
+    background-image: url('../img/food_egg_sandwich.jpg');
+}
+main {
+    padding: 40px 70px;
+}
+main>section, main>div>section{
+    margin: 30px;
+}
+.aligned {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.aligned > section {
+    margin: 30px;
+}
+.aligned section:first-child {
+    flex: 2;
+}
+.aligned section:last-child {
+    flex: 1;
+    text-align: left;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #104468;
+}
+#title h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+#openingsSchedule {
+    margin-left: 240px;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer ul {
+    list-style-type: disc;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 0;
+}
+footer ul li {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+footer ul li a:hover {
+    border-bottom: none;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.gallery img {
+    margin: 0;
+    height: 400px; 
+    min-width: 50px; 
+}
+.gallery img:nth-child(2){
+    object-position: top;
+}
