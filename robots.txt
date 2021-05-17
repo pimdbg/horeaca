@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow: http://cursist05.reacollege.eu/pim_oop/pages/updateJson
-
-Sitemap: http://cursist05.reacollege.eu/pim_oop/sitemap/sitemap.xml
