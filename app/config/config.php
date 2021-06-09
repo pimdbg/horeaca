@@ -18,9 +18,9 @@
             define('SITENAME', 'Horeaca');
             
             define('DB_HOST','localhost');
-            define('DB_NAME','reacoys29_DB5');
-            define('DB_USERNAME','reacoys29_CS5');
-            define('DB_PASSWORD','dbcursist05');
+            define('DB_NAME','name');
+            define('DB_USERNAME','username');
+            define('DB_PASSWORD','password');
         break;
     }
 ?>
